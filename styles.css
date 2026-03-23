@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 :root {
     --primary-color: #2d6a4f;
     --primary-dark: #1b4332;
@@ -26,12 +42,17 @@ body {
     line-height: 1.6;
     color: var(--text-dark);
     background-color: var(--bg-white);
+    overflow-x: hidden;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
 }
 
 /* Navigation */
@@ -397,6 +418,12 @@ blockquote {
     border: 2px dashed var(--border-color);
 }
 
+.calendar-placeholder iframe {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+}
+
 .placeholder-text {
     font-size: 1.5rem;
     color: var(--text-gray);
@@ -464,10 +491,13 @@ blockquote {
     cursor: pointer;
     font-family: inherit;
     font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s;
 }
 
 .signup-form button:hover {
     background-color: var(--bg-light);
+    transform: translateY(-2px);
 }
 
 .signup-note {
@@ -577,17 +607,21 @@ blockquote {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
     .nav-links {
         gap: 1rem;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .hero {
-        padding: 4rem 0;
+        padding: 3rem 0;
     }
 
     .hero-title {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
     }
 
     .hero-subtitle {
@@ -595,7 +629,7 @@ blockquote {
     }
 
     .section-title {
-        font-size: 2rem;
+        font-size: 1.85rem;
     }
 
     .values-grid,
@@ -607,30 +641,104 @@ blockquote {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .btn {
         width: 100%;
         max-width: 300px;
     }
+
+    .calendar-placeholder {
+        padding: 2rem 1rem;
+    }
+
+    .calendar-placeholder iframe {
+        height: 500px;
+    }
+
+    .signup-form {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .signup-form input[type="email"],
+    .signup-form button {
+        width: 100%;
+    }
+
+    .email-signup {
+        padding: 2rem 1.5rem;
+    }
+
+    .involvement-card {
+        padding: 2rem 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .nav-content {
+        padding: 0.75rem 0;
+    }
+
     .nav-links {
         gap: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 
     .logo {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        padding: 2.5rem 0;
     }
 
     .hero-title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
     }
 
     .section-title {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    .value-card,
+    .criteria-card,
+    .involvement-card {
+        padding: 1.5rem;
+    }
+
+    .manifesto-section {
+        padding: 1.5rem;
+    }
+
+    .email-signup {
+        padding: 2rem 1rem;
+    }
+
+    .email-signup h3 {
+        font-size: 1.5rem;
+    }
+
+    .calendar-placeholder iframe {
+        height: 400px;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.95rem;
     }
 }
 
@@ -703,6 +811,8 @@ button:focus {
 .manifesto-article {
     max-width: 850px;
     margin: 0 auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .manifesto-article h2 {
@@ -983,16 +1093,24 @@ button:focus {
 
 /* Responsive adjustments for manifesto page */
 @media (max-width: 768px) {
+    .manifesto-header {
+        padding: 3rem 0 2rem;
+    }
+
     .manifesto-title {
-        font-size: 2rem;
+        font-size: 1.85rem;
     }
 
     .manifesto-intro {
-        font-size: 1.35rem;
+        font-size: 1.25rem;
     }
 
     .manifesto-description {
         font-size: 1rem;
+    }
+
+    .manifesto-article {
+        padding: 0 15px;
     }
 
     .manifesto-article h2 {
@@ -1000,13 +1118,29 @@ button:focus {
     }
 
     .manifesto-article h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .manifesto-article h4 {
+        font-size: 1.2rem;
+    }
+
+    .manifesto-callout,
+    .manifesto-detail,
+    .better-way-section,
+    .decision-criteria-detailed {
+        padding: 1.5rem;
+    }
+
+    .vision-section {
+        padding: 2rem 1.5rem;
     }
 
     .criteria-item {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 1.25rem;
     }
 
     .cta-buttons {
@@ -1017,5 +1151,52 @@ button:focus {
     .cta-buttons .btn {
         width: 100%;
         max-width: 300px;
+    }
+
+    .manifesto-email-signup .signup-form {
+        flex-direction: column;
+    }
+
+    .manifesto-email-signup .signup-form input[type="email"],
+    .manifesto-email-signup .signup-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .manifesto-title {
+        font-size: 1.5rem;
+    }
+
+    .manifesto-intro {
+        font-size: 1.1rem;
+    }
+
+    .manifesto-description {
+        font-size: 0.95rem;
+    }
+
+    .manifesto-article h2 {
+        font-size: 1.5rem;
+    }
+
+    .manifesto-article h3 {
+        font-size: 1.25rem;
+    }
+
+    .manifesto-article h4 {
+        font-size: 1.1rem;
+    }
+
+    .vision-quote {
+        font-size: 1.35rem;
+    }
+
+    .manifesto-callout,
+    .manifesto-detail,
+    .better-way-section,
+    .decision-criteria-detailed,
+    .vision-section {
+        padding: 1.25rem;
     }
 }
