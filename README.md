@@ -6,15 +6,32 @@ This is the GitHub Pages landing page for the Mutual Thriving movement.
 
 Mutual Thriving offers a practical framework to help with navigating life in a way that maximizes win/win dynamics between self and others.
 
-The site will be available at: `https://mutualthriving.github.io` and eventually at `https://mutualthriving.org` once we set up the custom domain.
+The site will be available at: `https://mutualthriving.org` (custom domain)
+
+## 🚀 Deployment
+
+### Custom Domain Setup
+
+This site uses the custom domain **mutualthriving.org** hosted with world4you.com.
+
+**For complete DNS and domain setup instructions, see: [DOMAIN_SETUP.md](DOMAIN_SETUP.md)**
+
+Quick setup:
+1. Configure A records in world4you.com DNS (see DOMAIN_SETUP.md for exact IPs)
+2. Push CNAME file to GitHub (already created)
+3. Configure custom domain in GitHub Pages settings
+4. Enable HTTPS after DNS propagates
 
 ## 📁 File Structure
 
 ```
 mutualthriving.github.io/
 ├── index.html          # Main landing page
+├── manifesto.html      # Full manifesto page
 ├── styles.css          # Styling and responsive design
 ├── script.js           # Interactive features
+├── CNAME               # Custom domain configuration
+├── DOMAIN_SETUP.md     # Domain setup instructions
 ├── README.md           # This file
 └── LICENSE             # License file
 ```
@@ -39,12 +56,13 @@ Colors are defined as CSS variables in `styles.css` (lines 8-22). You can easily
 
 ## 📝 To-Do
 
-- [ ] Set up custom domain (mutualthriving.org)
-- [ ] Add Google Calendar integration for the public calendar
+- [ ] Complete DNS setup in world4you.com (see DOMAIN_SETUP.md)
+- [ ] Configure custom domain in GitHub Pages settings
+- [ ] Enable HTTPS after DNS propagates
+- [ ] Set up email service integration for newsletter signups
 - [ ] Configure actual contact email
-- [ ] Add upcoming events
 - [ ] Set up analytics (optional)
 
 ## 🤝 Contributing
 
-This is part of the Mutual Thriving organization. For contributions or questions, please join our [Discord](https://discord.gg/ECZ799yR) or contact us at contact@mutualthriving.org.
+This is part of the Mutual Thriving organization. For contributions or questions, please join our [Discord](https://discord.gg/WK65MxtKMf) or contact us at contact@mutualthriving.org.

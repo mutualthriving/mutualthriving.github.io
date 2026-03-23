@@ -413,6 +413,82 @@ blockquote {
     background-color: var(--bg-white);
 }
 
+.email-signup {
+    max-width: 600px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    color: white;
+}
+
+.email-signup h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.email-signup > p {
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+.signup-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 500px;
+    margin: 0 auto 1rem;
+}
+
+.signup-form input[type="email"] {
+    flex: 1;
+    padding: 0.875rem 1.25rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.signup-form input[type="email"]:focus {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+.signup-form button {
+    padding: 0.875rem 1.5rem;
+    background-color: var(--bg-white);
+    color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.signup-form button:hover {
+    background-color: var(--bg-light);
+}
+
+.signup-note {
+    font-size: 0.875rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.signup-success {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: none;
+}
+
+.signup-success.show {
+    display: block;
+}
+
 .involvement-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -882,6 +958,27 @@ button:focus {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.manifesto-email-signup {
+    margin: 2rem 0;
+}
+
+.manifesto-email-signup .signup-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 0.75rem;
+}
+
+.manifesto-email-signup .signup-form input[type="email"] {
+    background-color: white;
+}
+
+.manifesto-email-signup .signup-note {
+    color: white;
+    opacity: 0.85;
+    font-size: 0.9rem;
 }
 
 /* Responsive adjustments for manifesto page */

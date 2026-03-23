@@ -73,3 +73,67 @@ document.querySelectorAll('a[target="_blank"]').forEach(link => {
         // Can be extended with analytics tracking
     });
 });
+
+// Email signup form handling
+document.addEventListener('DOMContentLoaded', () => {
+    const signupForm = document.getElementById('email-signup-form');
+
+    if (signupForm) {
+        signupForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const emailInput = signupForm.querySelector('input[type="email"]');
+            const email = emailInput.value.trim();
+            const button = signupForm.querySelector('button');
+
+            // Disable button during submission
+            button.disabled = true;
+            button.textContent = 'Subscribing...';
+
+            try {
+                // TODO: Replace this with your actual email service integration
+                // Examples:
+                // - Mailchimp: https://mailchimp.com/help/add-a-signup-form-to-your-website/
+                // - ConvertKit: https://convertkit.com/features/forms
+                // - Buttondown: https://buttondown.email/
+
+                // For now, store locally (replace with actual API call)
+                console.log('Email signup:', email);
+
+                // Simulate API call
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                // Show success message
+                showSignupSuccess(signupForm);
+                emailInput.value = '';
+
+            } catch (error) {
+                console.error('Signup error:', error);
+                button.textContent = 'Try Again';
+                alert('There was an error signing up. Please try again or join our Discord directly.');
+            } finally {
+                button.disabled = false;
+                button.textContent = 'Subscribe';
+            }
+        });
+    }
+});
+
+function showSignupSuccess(form) {
+    // Check if success message already exists
+    let successMsg = form.parentElement.querySelector('.signup-success');
+
+    if (!successMsg) {
+        successMsg = document.createElement('div');
+        successMsg.className = 'signup-success';
+        successMsg.innerHTML = '✓ Success! You\'ll be notified about upcoming events and updates.';
+        form.parentElement.insertBefore(successMsg, form.nextSibling);
+    }
+
+    successMsg.classList.add('show');
+
+    // Hide after 5 seconds
+    setTimeout(() => {
+        successMsg.classList.remove('show');
+    }, 5000);
+}
