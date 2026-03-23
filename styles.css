@@ -261,6 +261,12 @@ a.logo:hover {
     margin-bottom: 1rem;
 }
 
+.value-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
 .value-card h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
