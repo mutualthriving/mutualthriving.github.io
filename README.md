@@ -55,11 +55,6 @@ Colors are defined as CSS variables in `styles.css` (lines 8-22). You can easily
 
 
 ## 📝 To-Do
-
-- [ ] Complete DNS setup in world4you.com (see DOMAIN_SETUP.md)
-- [ ] Configure custom domain in GitHub Pages settings
-- [ ] Enable HTTPS after DNS propagates
-- [ ] Set up email service integration for newsletter signups
 - [ ] Configure actual contact email
 - [ ] Set up analytics (optional)
 

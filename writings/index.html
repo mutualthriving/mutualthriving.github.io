@@ -1,0 +1,41 @@
+---
+layout: default
+title: Writings
+description: Essays, guides, and formats from the Mutual Thriving community.
+permalink: /writings/
+---
+<section class="writings-header">
+    <div class="container">
+        <h1 class="section-title">Writings</h1>
+        <p class="section-subtitle">Essays, guides, and formats from the Mutual Thriving community.</p>
+    </div>
+</section>
+
+<section class="writings-list">
+    <div class="container">
+        <div class="writings-grid">
+            {% for writing in site.writings %}
+            <article class="writing-card">
+                <h3><a href="{{ writing.url | relative_url }}">{{ writing.title }}</a></h3>
+                {% if writing.subtitle %}
+                <p class="writing-subtitle">{{ writing.subtitle }}</p>
+                {% endif %}
+                {% if writing.excerpt %}
+                <p class="writing-excerpt">{{ writing.excerpt | strip_html | truncate: 150 }}</p>
+                {% endif %}
+                {% if writing.tags %}
+                <div class="writing-tags">
+                    {% for tag in writing.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </article>
+            {% endfor %}
+
+            {% if site.writings.size == 0 %}
+            <p class="no-writings">New writings coming soon! In the meantime, check out our <a href="{{ '/manifesto/' | relative_url }}">manifesto</a>.</p>
+            {% endif %}
+        </div>
+    </div>
+</section>

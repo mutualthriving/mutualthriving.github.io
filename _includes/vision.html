@@ -1,0 +1,12 @@
+<!-- Vision section with gradient background -->
+<!-- Usage:
+{% capture vision_content %}
+Your vision content here with **markdown** support.
+{% endcapture %}
+{% include vision.html title="Vision Title" quote="Optional quote" content=vision_content %}
+-->
+<div class="vision-section">
+    {% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+    {% if include.quote %}<p class="vision-quote">"{{ include.quote }}"</p>{% endif %}
+    {{ include.content | markdownify }}
+</div>

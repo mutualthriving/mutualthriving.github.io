@@ -1,0 +1,41 @@
+# Site settings
+name: Mutual Thriving
+title: Mutual Thriving
+tagline: "A Better Way to Live"
+description: "Mutual Thriving offers a practical framework to help you navigate life in a way that maximizes win/win dynamics between you and others."
+url: https://mutualthriving.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "writings"
+    values:
+      layout: page
+
+# Collections for writings/formats
+collections:
+  writings:
+    output: true
+    permalink: /writings/:title/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - DOMAIN_SETUP.md
+  - GOOGLE_FORMS_SETUP.md
+  - LICENSE

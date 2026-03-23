@@ -1,0 +1,7 @@
+<!-- Value card with icon -->
+<!-- Usage: {% include value-card.html icon="🌱" title="Title" description="Description text" %} -->
+<div class="value-card">
+    {% if include.icon %}<div class="value-icon">{{ include.icon }}</div>{% endif %}
+    <h3>{{ include.title }}</h3>
+    <p>{{ include.description }}</p>
+</div>
