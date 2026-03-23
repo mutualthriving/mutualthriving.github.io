@@ -54,6 +54,12 @@ body {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.logo:hover {
+    color: var(--primary-light);
 }
 
 .nav-links {
@@ -583,4 +589,336 @@ button:focus {
 .nav-links a.active {
     color: var(--primary-color);
     font-weight: 600;
+}
+
+/* Manifesto Page Styles */
+.manifesto-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 4rem 0 3rem;
+    text-align: center;
+}
+
+.manifesto-title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.manifesto-intro {
+    font-size: 1.75rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+.manifesto-description {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    opacity: 0.9;
+}
+
+.manifesto-body {
+    padding: 4rem 0;
+    background-color: var(--bg-white);
+}
+
+.manifesto-article {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.manifesto-article h2 {
+    font-size: 2.25rem;
+    color: var(--primary-dark);
+    margin: 3rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.manifesto-article h3 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin: 2.5rem 0 1rem;
+}
+
+.manifesto-article h4 {
+    font-size: 1.35rem;
+    color: var(--primary-dark);
+    margin: 1.5rem 0 0.75rem;
+}
+
+.manifesto-article p {
+    margin-bottom: 1.25rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-gray);
+}
+
+.manifesto-article ul,
+.manifesto-article ol {
+    margin: 1rem 0 1.5rem 1.75rem;
+    line-height: 1.8;
+}
+
+.manifesto-article li {
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+    color: var(--text-gray);
+}
+
+.manifesto-article li ul,
+.manifesto-article li ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.manifesto-article strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.manifesto-article em {
+    font-style: italic;
+}
+
+.manifesto-callout {
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.manifesto-callout h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.manifesto-callout p,
+.manifesto-callout li {
+    color: white;
+}
+
+.manifesto-detail {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    border-left: 4px solid var(--primary-color);
+}
+
+.manifesto-highlight {
+    background-color: var(--primary-light);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    font-size: 1.15rem;
+}
+
+.manifesto-highlight p {
+    color: white;
+    margin-bottom: 0;
+}
+
+.vision-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+}
+
+.vision-section h2 {
+    color: white;
+    border-bottom: 3px solid white;
+    margin-top: 0;
+}
+
+.vision-section p,
+.vision-section li {
+    color: white;
+}
+
+.vision-quote {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+.vision-list {
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.vision-conclusion {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.pyramid-placeholder {
+    background-color: var(--bg-light);
+    padding: 3rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 1.5rem 0;
+    border: 2px dashed var(--border-color);
+}
+
+.pyramid-placeholder p {
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.decision-criteria-detailed {
+    background-color: var(--bg-light);
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.decision-criteria-detailed h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.criteria-list {
+    margin: 2rem 0;
+}
+
+.criteria-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: var(--bg-white);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.criteria-item .criteria-number {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.criteria-item .criteria-content h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--primary-dark);
+}
+
+.criteria-item .criteria-content p {
+    margin-bottom: 0;
+    color: var(--text-gray);
+}
+
+.criteria-action {
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+.criteria-action p {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.criteria-action p:last-child {
+    margin-bottom: 0;
+}
+
+.better-way-section {
+    background-color: var(--bg-light);
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.better-way-section h3 {
+    margin-top: 0;
+}
+
+.manifesto-cta-section {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.manifesto-cta-section h3 {
+    color: white;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.manifesto-cta-section p {
+    color: white;
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive adjustments for manifesto page */
+@media (max-width: 768px) {
+    .manifesto-title {
+        font-size: 2rem;
+    }
+
+    .manifesto-intro {
+        font-size: 1.35rem;
+    }
+
+    .manifesto-description {
+        font-size: 1rem;
+    }
+
+    .manifesto-article h2 {
+        font-size: 1.75rem;
+    }
+
+    .manifesto-article h3 {
+        font-size: 1.5rem;
+    }
+
+    .criteria-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
 }
