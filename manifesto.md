@@ -118,7 +118,7 @@ If we can agree on these three criteria as core criteria for a successful civili
 **Thrive:** We understand *thriving* as moving upwards (by having all layers below satisfied) on Maslow's pyramid of needs:
 
 <div class="pyramid-image">
-    <img src="img/maslow.jpg" alt="Maslow's Pyramid of Needs">
+    <img src="/img/maslow.jpg" alt="Maslow's Pyramid of Needs">
 </div>
 
 **Others:** We understand *others* as the moral circle you are currently considering. Depending on practical possibility and relevance, it may be smaller or larger at a given point in time. Given the practical capacity, it shall be our goal to expand our moral circle as far as possible, from our global human family to animals and all sentient beings.
