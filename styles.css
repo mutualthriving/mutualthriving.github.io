@@ -725,11 +725,11 @@ blockquote {
     }
 
     .calendar-placeholder {
-        padding: 2rem 1rem;
+        padding: 0.5rem;
     }
 
     .calendar-placeholder iframe {
-        height: 500px;
+        height: 550px;
     }
 
     .signup-form {
@@ -808,7 +808,7 @@ blockquote {
     }
 
     .calendar-placeholder iframe {
-        height: 400px;
+        height: 500px;
     }
 
     .btn {
