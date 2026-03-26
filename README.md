@@ -60,4 +60,4 @@ Colors are defined as CSS variables in `styles.css` (lines 8-22). You can easily
 
 ## 🤝 Contributing
 
-This is part of the Mutual Thriving organization. For contributions or questions, please join our [Discord](https://discord.gg/WK65MxtKMf) or contact us at contact@mutualthriving.org.
+This is part of the Mutual Thriving organization. For contributions or questions, please join our [Discord](https://discord.gg/qJwfgx29BF) or contact us at contact@mutualthriving.org.
