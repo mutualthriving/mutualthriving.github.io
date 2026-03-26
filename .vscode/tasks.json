@@ -1,0 +1,72 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Jekyll: bundle install",
+      "type": "shell",
+      "command": "export PATH=\"$HOME/.rbenv/shims:$HOME/.asdf/shims:/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\" && bundle install",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/zsh",
+          "args": ["-c"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Jekyll: Serve",
+      "type": "shell",
+      "command": "export PATH=\"$HOME/.rbenv/shims:$HOME/.asdf/shims:/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\" && (bundle check || bundle install) && bundle exec jekyll serve --livereload --incremental --host 127.0.0.1",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/zsh",
+          "args": ["-c"]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      },
+      "problemMatcher": {
+        "owner": "jekyll",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Configuration file:",
+          "endsPattern": "^\\s*Server address:"
+        }
+      }
+    },
+    {
+      "label": "Jekyll: build",
+      "type": "shell",
+      "command": "export PATH=\"$HOME/.rbenv/shims:$HOME/.asdf/shims:/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\" && (bundle check || bundle install) && bundle exec jekyll build",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/zsh",
+          "args": ["-c"]
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

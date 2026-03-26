@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manifesto
+title: An Introduction to Mutual Thriving
 subtitle: How to live a life that's good for you and the world?
 ---
 
@@ -8,7 +8,7 @@ Mutual Thriving offers a practical framework to help you navigate life in a way 
 
 We argue that a life according to the mutual thriving principles can represent not only a morally good life, but a better way to live even from the old paradigm's perspective.
 
-This website offers the theory as well as practical support on how you can integrate win/win dynamics into your life and social environment.
+<!-- This website offers the theory as well as practical support on how you can integrate win/win dynamics into your life and social environment. -->
 
 The goal is to offer a meaningful and attractive new way of living that is
 * mutually beneficial
@@ -36,37 +36,44 @@ Let's look into the argumentation in more detail.
 
 ### Wanted: Paradigm Shift
 
-Parameter changes (like making machines or processes more efficient) and even new goals (like the Sustainable Development Goals) are not enough if the underlying paradigm stays misaligned ([Donnella Meadows: Levers of change](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)). We need change at a paradigmatic level: How we view the world, how we view ourselves in relationship with the world, what we value in ourselves and others.
+Parameter changes (like making processes more efficient) and even new goals (like the Sustainable Development Goals) are not enough if the underlying paradigm stays misaligned (source: [Donnella Meadows: Levers of change](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)). We need change at a paradigmatic level: How we view the world, how we view ourselves in relationship with the world, what we value in ourselves and others.
 
 <details>
 <summary><strong>Longer argumentation</strong></summary>
 
-There are plenty of well-intended efforts to make our society more sustainable and better for all. Why do they not seem to suffice?
+<p>There are plenty of well-intended efforts to make our society more sustainable and better for all. Why do they not seem to suffice?</p>
 
-**We need a shift on a paradigmatic level**: If a company finds a way to cut the resources needed to produce a good in half, they will likely not end up using fewer resources. Rather, they may end up producing double the amount of goods. Why does that happen? An answer is proposed by [systems theory pioneer Donnella Meadows](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/): Parameter optimization within a system is a weak leverage point to change the system as a whole. Sustainability goals are better, but they might be circumvented if they stand against fundamental incentives of a company or society. *Behavior in the system flows downstream from the system's paradigm*. When we want to steer our system towards alignment, we need to understand what paradigm underlies our system, which aspects of it lead to the observable misalignment, propose changes and then find a way to actually shift the system accordingly.
+<p><strong>We need a shift on a paradigmatic level</strong>: If a company finds a way to cut the resources needed to produce a good in half, they will likely not end up using fewer resources. Rather, they may end up producing double the amount of goods. Why does that happen? An answer is proposed by <a href="https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/">systems theory pioneer Donnella Meadows</a>: Parameter optimization within a system is a weak leverage point to change the system as a whole. Sustainability goals are better, but they might be circumvented if they stand against fundamental incentives of a company or society. <em>Behavior in the system flows downstream from the system's paradigm</em>. When we want to steer our system towards alignment, we need to understand what paradigm underlies our system, which aspects of it lead to the observable misalignment, propose changes and then find a way to actually shift the system accordingly.</p>
 
-**What is a paradigm?** The dominant societal paradigm describes how we view the world, how we view ourselves in relationship with the world, what we value in ourselves and others. "What makes a society succesful?" (Even the notion of "states" or "nations" is downstream of a paradigm in which societies are clustered into nations.) "What makes a good life?" - Answering question like these can give you a sense of the paradigm underlying our system.
+<p><strong>What is a paradigm?</strong> The dominant societal paradigm describes how we view the world, how we view ourselves in relationship with the world, what we value in ourselves and others. "What makes a society succesful?" (Even the notion of "states" or "nations" is downstream of a paradigm in which societies are clustered into nations.) "What makes a good life?" - Answering question like these can give you a sense of the paradigm underlying our system.</p>
 
-**What is problematic within our current paradigm?**
+<p><strong>What is problematic within our current paradigm?</strong></p>
 
-Looking at our dominant economic system of the west, we make a set of assumptions about our system's underlying paradigm:
+<p>Looking at our dominant economic system of the west, we make a set of assumptions about our system's underlying paradigm:</p>
 
-- The success of a Nation is typically measured in economic size and growth.
-- Individual success is represented by the individual's ranking along well-regarded measurable metrics. The most universal success metric across society is financial wealth.
-- Mainstream recognition (status) for individuals is awarded on the basis of success metrics.
-- The boundaries within which players are free to pursue their success are set by rules and laws.
-- The non-human environment represents resources that can be used to support one's pursuit of success (as long as you stay within legal boundaries).
+<ul>
+  <li>The success of a Nation is typically measured in economic size and growth.</li>
+  <li>Individual success is represented by the individual's ranking along well-regarded measurable metrics. The most universal success metric across society is financial wealth.</li>
+  <li>Mainstream recognition (status) for individuals is awarded on the basis of success metrics.</li>
+  <li>The boundaries within which players are free to pursue their success are set by rules and laws.</li>
+  <li>The non-human environment represents resources that can be used to support one's pursuit of success (as long as you stay within legal boundaries).</li>
+</ul>
 
-What parts are problematic and in which way?
+<p>What parts are problematic and in which way?</p>
 
-Social Philosopher [Daniel Schmachtenberger identifies two core issues](https://civilizationemerging.com/solving-generator-function/) that, mixed with exponential technological progress, sooner or later lead to global catastrophe:
+<p>Social Philosopher <a href="https://civilizationemerging.com/solving-generator-function/">Daniel Schmachtenberger identifies two core issues</a> that, mixed with exponential technological progress, sooner or later lead to global catastrophe:</p>
 
-1. **Rivalrous dynamics (Win/Lose Thinking)**: If we assume that in order to "win" in life or business, others may or must lose, harm is unavoidable. Rivalrous dynamics produce multiple phenomena that are in the center of our current global problems:
-    1. *Externalization of cost*: In our system, players can make private gains at the cost of the public: If businesses make profits off of people's addictions and they have the tools and legal frame to make them addicted, they are incentivized to do so: Take smoking, alcohol, gambling, sugary foods and drinks, where fortunes can be made at the cost of people's long-term quality of life. Systematic incentive is clearly decoupled from what would maximally benefit the collective. Apart from human suffering, take the exploitation of animals or the exploitation and pollution of our natural environment: As soon as the damage caused is not explicitly forbidden or priced into production cost, players are incentivized to condone them.
-    2. *Multi-Polar Traps* (aka tragedy of the commons): A particularly noteworthy phenomenon in competitive win/lose dynamics is multi-polar traps: If you can build a nuclear weapon, you might realize it's a risky idea and not pursue it. However, if you fear that others will build a nuclear weapon and use it against you if you do not go there first, it is even riskier for you *not* to build it. Multi-polar traps describe how win/lose competition incentivizes players to take actions that they know can harm the system as a whole: They may not even be happy about, but fear that if they don't take the shot, competitors will still take it and gain a significant advantage over them. This is why developments in artificial intelligence are exploding in an unchecked way, even though stakeholders are aware of the risks connected to superhuman AI. Multi-polar traps also explain why climate change is so hard to address if climate-friendly action comes at a competitive disadvantage.
-2. **Destroying the self-repairing capacity of systems we depend on:** Humans depend greatly on oxygen, non-toxic air, clean drinking water and other factors from the ecosystem we're embedded in. Underneath these factors lie systemic regenerative closed-loop processes in nature. Weakening the self-regulating capacity of nature, by extracting resources and destroying ecosystems, makes the macro-ecosystem we depend on increasingly fragile. However, our systemic paradigm and win/lose dynamics incentivize us to accept environmental damage, while technological progress makes the damage we can deal evermore significant.
+<ol>
+  <li><strong>Rivalrous dynamics (Win/Lose Thinking)</strong>: If we assume that in order to "win" in life or business, others may or must lose, harm is unavoidable. Rivalrous dynamics produce multiple phenomena that are in the center of our current global problems:
+    <ol>
+      <li><em>Externalization of cost</em>: In our system, players can make private gains at the cost of the public: If businesses make profits off of people's addictions and they have the tools and legal frame to make them addicted, they are incentivized to do so: Take smoking, alcohol, gambling, sugary foods and drinks, where fortunes can be made at the cost of people's long-term quality of life. Systematic incentive is clearly decoupled from what would maximally benefit the collective. Apart from human suffering, take the exploitation of animals or the exploitation and pollution of our natural environment: As soon as the damage caused is not explicitly forbidden or priced into production cost, players are incentivized to condone them.</li>
+      <li><em>Multi-Polar Traps</em> (aka tragedy of the commons): A particularly noteworthy phenomenon in competitive win/lose dynamics is multi-polar traps: If you can build a nuclear weapon, you might realize it's a risky idea and not pursue it. However, if you fear that others will build a nuclear weapon and use it against you if you do not go there first, it is even riskier for you <em>not</em> to build it. Multi-polar traps describe how win/lose competition incentivizes players to take actions that they know can harm the system as a whole: They may not even be happy about, but fear that if they don't take the shot, competitors will still take it and gain a significant advantage over them. This is why developments in artificial intelligence are exploding in an unchecked way, even though stakeholders are aware of the risks connected to superhuman AI. Multi-polar traps also explain why climate change is so hard to address if climate-friendly action comes at a competitive disadvantage.</li>
+    </ol>
+  </li>
+  <li><strong>Destroying the self-repairing capacity of systems we depend on:</strong> Humans depend greatly on oxygen, non-toxic air, clean drinking water and other factors from the ecosystem we're embedded in. Underneath these factors lie systemic regenerative closed-loop processes in nature. Weakening the self-regulating capacity of nature, by extracting resources and destroying ecosystems, makes the macro-ecosystem we depend on increasingly fragile. However, our systemic paradigm and win/lose dynamics incentivize us to accept environmental damage, while technological progress makes the damage we can deal evermore significant.</li>
+</ol>
 
-If we keep advancing technology but do not shift our paradigm in a way that addresses these core issues, catastrophe is unavoidable. So, if we want to make a change, the quest is to find a new paradigm that works, results in public benefit downstream, stays within planetary boundaries and makes societal self-termination unlikely.
+<p>If we keep advancing technology but do not shift our paradigm in a way that addresses these core issues, catastrophe is unavoidable. So, if we want to make a change, the quest is to find a new paradigm that works, results in public benefit downstream, stays within planetary boundaries and makes societal self-termination unlikely.</p>
 
 </details>
 

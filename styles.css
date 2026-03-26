@@ -245,6 +245,7 @@ a.logo:hover {
 
 .value-card {
     background: var(--bg-white);
+    margin-top: 1rem;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
@@ -435,6 +436,16 @@ blockquote {
 .manifesto-cta {
     text-align: center;
     margin-top: 3rem;
+}
+
+.btn-manifesto {
+    box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.25), 0 0 24px 8px rgba(45, 106, 79, 0.45);
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+}
+
+.btn-manifesto:hover {
+    box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.4), 0 0 36px 14px rgba(45, 106, 79, 0.6);
 }
 
 /* Events Section */
