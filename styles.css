@@ -450,10 +450,11 @@ blockquote {
 
 .calendar-placeholder {
     background-color: var(--bg-white);
-    padding: 4rem 2rem;
+    padding: 1.5rem;
     border-radius: 12px;
     text-align: center;
-    border: 2px dashed var(--border-color);
+    box-shadow: var(--shadow-lg);
+    border-top: 4px solid var(--primary-color);
 }
 
 .calendar-placeholder iframe {
@@ -1022,18 +1023,16 @@ button:focus {
     margin-top: 1.5rem;
 }
 
-.pyramid-placeholder {
-    background-color: var(--bg-light);
-    padding: 3rem;
-    border-radius: 12px;
+.pyramid-image {
     text-align: center;
     margin: 1.5rem 0;
-    border: 2px dashed var(--border-color);
 }
 
-.pyramid-placeholder p {
-    color: var(--text-light);
-    font-style: italic;
+.pyramid-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
 }
 
 .decision-criteria-detailed {
