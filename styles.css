@@ -304,6 +304,71 @@ a.logo:hover {
 }
 
 /* Decision Criteria Section */
+.what-we-do {
+    padding: 5rem 0;
+    background-color: var(--bg-white);
+}
+
+.what-we-do-text {
+    max-width: 680px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: var(--text-gray);
+    line-height: 1.8;
+}
+
+.what-we-do-text p {
+    margin-bottom: 0.75rem;
+}
+
+.what-we-do-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.what-we-do-card {
+    background: var(--bg-light);
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-color);
+    padding: 1.25rem 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what-we-do-card h3 {
+    color: var(--primary-dark);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.coming-soon {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-gray);
+    background: var(--bg-white);
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.coming-soon-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: background 0.2s, color 0.2s;
+}
+
+.coming-soon-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
 .decision-criteria {
     padding: 5rem 0;
     background-color: var(--bg-white);
@@ -1588,5 +1653,4 @@ button:focus {
     .format-content .decision-criteria-detailed {
         padding: 1.5rem;
     }
-}
 }
